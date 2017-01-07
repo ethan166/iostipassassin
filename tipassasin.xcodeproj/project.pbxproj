@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA329A331E20B03A00CF03C1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA329A321E20B03A00CF03C1 /* SettingsViewController.swift */; };
 		AAC8DE8E1E1AB2E50055D1DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8DE8D1E1AB2E50055D1DD /* AppDelegate.swift */; };
 		AAC8DE901E1AB2E50055D1DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8DE8F1E1AB2E50055D1DD /* ViewController.swift */; };
 		AAC8DE931E1AB2E50055D1DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC8DE911E1AB2E50055D1DD /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA329A321E20B03A00CF03C1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		AAC8DE8A1E1AB2E50055D1DD /* tipassasin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipassasin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC8DE8D1E1AB2E50055D1DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAC8DE8F1E1AB2E50055D1DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		AAC8DE811E1AB2E50055D1DD = {
 			isa = PBXGroup;
 			children = (
+				AA329A321E20B03A00CF03C1 /* SettingsViewController.swift */,
 				AAC8DE8C1E1AB2E50055D1DD /* tipassasin */,
 				AAC8DEA11E1AB2E50055D1DD /* tipassasinTests */,
 				AAC8DEAC1E1AB2E50055D1DD /* tipassasinUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				AAC8DE901E1AB2E50055D1DD /* ViewController.swift in Sources */,
 				AAC8DE8E1E1AB2E50055D1DD /* AppDelegate.swift in Sources */,
+				AA329A331E20B03A00CF03C1 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				AAC8DEB41E1AB2E50055D1DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAC8DEB51E1AB2E50055D1DD /* Build configuration list for PBXNativeTarget "tipassasinTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				AAC8DEB71E1AB2E50055D1DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAC8DEB81E1AB2E50055D1DD /* Build configuration list for PBXNativeTarget "tipassasinUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				AAC8DEBA1E1AB2E50055D1DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
